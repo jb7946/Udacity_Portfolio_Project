@@ -1,0 +1,119 @@
+/* default settings for images, embeds, objects, videos */
+img, embed, object, video {
+	max-width: 100%;
+}
+
+/* default settings for body element */
+body {
+	font-family: 'Times New Roman', serif;
+	font-size: 16px;
+	color:#2d3c49;
+}
+
+/* flex box settings for heading id */
+.heading {
+	display: flex;
+	padding: 1em;
+	border-bottom: 3px;
+	margin-bottom: 1.5em;
+}
+
+/* settings for my name inside the heading */
+.heading .title {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 0 0 0 auto;
+	text-align: right;
+}
+
+/* settings for my subtitle in the heading */
+.heading .title .subtitle {
+	display: block;
+	font-size: 0.5em;
+	font-weight: 400;
+}
+
+/* optional id for left justify */
+.left {
+  float: left;
+}
+
+/* optional id for right justify */
+.right {
+  float: right;
+}
+
+/* optional id to clear inline */
+.transitionbar {
+  clear: both;
+	width: 100%;
+}
+
+/* avatar image sizing */
+.avatar {
+  width: 100px;
+  height: 65px;
+}
+
+/* font setting for name */
+.title {
+  font-variant: small-caps;
+}
+
+/* font setting for subtitle */
+.subtitle {
+  font-variant: small-caps;
+}
+
+/* setting for banner image */
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+/* paragraph text under banner */
+.bannerinfo {
+	font-size: 30px;
+}
+
+/* setting for banner background */
+.banner .banner-background {
+  position: relative;
+  top: 0; left: 0;
+  width: 100%;
+}
+
+/* define featured section */
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* set featured header text */
+.featured .header {
+  display: block;
+  font-size: 1.5em;
+  margin: 1em 5px 0.5em;
+  width: 100%;
+}
+
+/* configure featured items */
+.featured .item {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+/* set text under featured images */
+.featured .item .title {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0.3em 0;
+}
+
+/* lock maximum featured image size */
+.featured .item .image {
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+}
